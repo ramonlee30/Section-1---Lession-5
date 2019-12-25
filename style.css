@@ -17,7 +17,7 @@
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
 }
-.nestedGrid > *{
+.nestedGrid> *{
   border: 2px solid aquamarine;
 }
 .box{
@@ -38,7 +38,7 @@
     grid-area: main;
   }
 /* If Screen Is Wide Enough */
-@media(min-width:900px) {
+@media(min-width:900px){
 .container{
       display:grid;
       grid-template-columns: 300px 300px 300px;
